@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+  }
+  //设置图标样式
+  // .icon{
+
+  // }
+/* WebKit browsers */ 
+input::-webkit-input-placeholder { 
+    color: #ccc; 
+} 
+  /* Mozilla Firefox 4 to 18 */ 
+input:-moz-placeholder { 
+    color: #ccc; 
+} 
+  /* Mozilla Firefox 19+ */ 
+input::-moz-placeholder { 
+    color: #ccc; 
+} 
+  /* Internet Explorer 10+ */ 
+input:-ms-input-placeholder { 
+    color: #ccc; 
+}
+
+html,body {
+    min-width: 100%;
+    min-height: 1px;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+    #app{
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+    }
+}
